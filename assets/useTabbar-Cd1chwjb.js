@@ -1,0 +1,9 @@
+
+/**
+ * 由 admin 提供技术支持
+ * Powered by admin
+ * 代码仓库
+ * Github https://github.com/Lmx1220/kpu-web
+ */
+    
+import{a as p,k as m,u as T,bp as R,aY as u}from"./bootstrap-DTzpk8a9.js";function C(){const d=p(),a=m(),h=T(),t=R();function o(){return h.settings.tabbar.mergeTabsBy==="activeMenu"?d.meta.activeMenu??d.fullPath:d.fullPath}function r(e){const n=o();a.push(e).then(()=>{t.remove(n)})}function x(e=o()){if(f(e,!1)){const n=o();if(e===n){const i=t.list.findIndex(l=>l.tabId===e);i<t.list.length-1?r(t.list[i+1].fullPath):r(t.list[i-1].fullPath)}else t.remove(e)}}function I(e=o()){const n=o();if(e!==n){const i=t.list.findIndex(l=>l.tabId===e);a.push(t.list[i].fullPath)}t.removeOtherSide(e)}function b(e=o()){const n=o();if(e!==n){const i=t.list.findIndex(s=>s.tabId===e);t.list.findIndex(s=>s.tabId===n)<i&&a.push(t.list[i].fullPath)}t.removeLeftSide(e)}function g(e=o()){const n=o();if(e!==n){const i=t.list.findIndex(s=>s.tabId===e);t.list.findIndex(s=>s.tabId===n)>i&&a.push(t.list[i].fullPath)}t.removeRightSide(e)}function f(e=o(),n=!0){let i=!0;return t.list.findIndex(s=>s.tabId===e)<0?(i=!1,!n&&u.warning("关闭的标签页不存在",{position:"top-center"})):t.list.length<=1&&(i=!1,!n&&u.warning("当前只有一个标签页，不可关闭",{position:"top-center"})),i}function v(e=o()){return t.list.some(n=>!n.isPermanent&&!n.isPin&&n.tabId!==e)}function S(e=o()){var i;let n=!0;if(e===((i=t.list[0])==null?void 0:i.tabId))n=!1;else{const l=t.list.findIndex(s=>s.tabId===e);n=t.list.some((s,c)=>c<l&&!s.isPermanent&&!s.isPin&&s.tabId!==e)}return n}function P(e=o()){var i;let n=!0;if(e===((i=t.list.at(-1))==null?void 0:i.tabId))n=!1;else{const l=t.list.findIndex(s=>s.tabId===e);n=t.list.some((s,c)=>c>=l&&!s.isPermanent&&!s.isPin&&s.tabId!==e)}return n}return{getId:o,close:r,closeById:x,closeOtherSide:I,closeLeftSide:b,closeRightSide:g,checkClose:f,checkCloseOtherSide:v,checkCloseLeftSide:S,checkCloseRightSide:P}}export{C as u};

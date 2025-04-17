@@ -1,0 +1,9 @@
+
+/**
+ * 由 admin 提供技术支持
+ * Powered by admin
+ * 代码仓库
+ * Github https://github.com/Lmx1220/kpu-web
+ */
+    
+import{_ as V}from"./index.vue_vue_type_script_setup_true_lang-DCSa_W1a.js";import{d as g,r as u,b as n,o as i,i as l,w as m,e,G as p,j as o,bb as w,F as _,q as f,v}from"./bootstrap-DTzpk8a9.js";import{_ as K}from"./index.vue_vue_type_script_setup_true_lang-1BZEXnju.js";import{_ as y}from"./index.vue_vue_type_script_setup_true_lang-CvxDANHv.js";import{b as x}from"./route-block-B_A1xBdJ.js";import"./index-Ce4LrBVu.js";import"./useFormControl-Bfdwftmu.js";import"./VisuallyHiddenInput-BWgIjf8G.js";const S={class:"flex-col-start gap-4"},$={class:"flex-col-start gap-4"},h={class:"flex-center-start gap-4"},B={class:"flex-center-start gap-4"},A={class:"flex-center-start"},C=g({__name:"scrollarea",setup(F){const a=u(!0),r=u(!1);return(N,t)=>{const b=y,c=K,d=w,k=V;return i(),n("div",null,[l(b,{title:"滚动区域",description:"KpuScrollArea"}),l(k,null,{default:m(()=>[e("div",S,[e("div",$,[e("div",h,[t[2]||(t[2]=e("div",{class:"text-sm"}," 显示滚动条 ",-1)),l(c,{modelValue:o(a),"onUpdate:modelValue":t[0]||(t[0]=s=>p(a)?a.value=s:null)},null,8,["modelValue"])]),e("div",B,[t[3]||(t[3]=e("div",{class:"text-sm"}," 显示遮罩 ",-1)),l(c,{modelValue:o(r),"onUpdate:modelValue":t[1]||(t[1]=s=>p(r)?r.value=s:null)},null,8,["modelValue"])])]),l(d,{scrollbar:o(a),mask:o(r),class:"h-72 w-48 border rounded-md"},{default:m(()=>[(i(),n(_,null,f(20,s=>e("div",{key:s,class:"p-4 text-sm"},v(s),1)),64))]),_:1},8,["scrollbar","mask"]),l(d,{horizontal:"",scrollbar:o(a),mask:o(r),class:"w-96 border rounded-md"},{default:m(()=>[e("div",A,[(i(),n(_,null,f(20,s=>e("div",{key:s,class:"h-16 w-16 flex-center text-sm"},v(s),1)),64))])]),_:1},8,["scrollbar","mask"])])]),_:1})])}}});typeof x=="function"&&x(C);export{C as default};

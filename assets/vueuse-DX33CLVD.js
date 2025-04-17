@@ -1,0 +1,9 @@
+
+/**
+ * 由 admin 提供技术支持
+ * Powered by admin
+ * 代码仓库
+ * Github https://github.com/Lmx1220/kpu-web
+ */
+    
+import{_ as w}from"./index.vue_vue_type_script_setup_true_lang-DCSa_W1a.js";import{_ as x}from"./index.vue_vue_type_script_setup_true_lang-CvxDANHv.js";import{d as U,ch as N,r as P,b2 as y,z as K,l as m,b as A,o as d,i as o,f as F,h as M,w as t,V as a,p as T,e as f,j as n,b$ as j,G as z,bI as c}from"./bootstrap-DTzpk8a9.js";import{b as _}from"./route-block-B_A1xBdJ.js";import"./index-Ce4LrBVu.js";const D=U({__name:"vueuse",setup(G){function r(){c.success({message:"恭喜你，这是一条成功消息"})}const k=j(()=>{r()},1e3),V=N(()=>{r()},1e3),s=P(""),{text:b,copy:C,copied:v,isSupported:$}=y();K(v,l=>{l&&c.success(`复制成功：${b.value}`)});function g(l){window.open(l,"_blank")}return(l,e)=>{const B=T,u=m("ElButton"),E=x,p=w,I=m("ElInput");return d(),A("div",null,[o(E,{title:"VueUse",content:"VueUse 是一个 Vue Composition API 实用程序的集合，更多 API 和例子请查看 VueUse 官网。"},{default:t(()=>[o(u,{onClick:e[0]||(e[0]=i=>g("https://vueuse.org/"))},{icon:t(()=>[o(B,{name:"i-ep:link"})]),default:t(()=>[e[3]||(e[3]=a(" VueUse 官网 "))]),_:1})]),_:1}),o(p,{title:"防抖：debounce"},{default:t(()=>[e[5]||(e[5]=f("p",{class:"mt-0"}," 所谓防抖，就是指触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间。 ",-1)),o(u,{onClick:n(k)},{default:t(()=>e[4]||(e[4]=[a(" 连续点击我，只会执行最后一次点击事件 ")])),_:1},8,["onClick"])]),_:1}),o(p,{title:"节流：throttle"},{default:t(()=>[e[7]||(e[7]=f("p",{class:"mt-0"}," 所谓节流，就是指连续触发事件但是在 n 秒中只执行一次函数。节流会稀释函数的执行频率。 ",-1)),o(u,{onClick:n(V)},{default:t(()=>e[6]||(e[6]=[a(" 连续点击我，每一秒只会执行一次点击事件 ")])),_:1},8,["onClick"])]),_:1}),n($)?(d(),F(p,{key:0,title:"复制：clipboard"},{default:t(()=>[o(I,{modelValue:n(s),"onUpdate:modelValue":e[2]||(e[2]=i=>z(s)?s.value=i:null),placeholder:"输入内容，并点击复制按钮"},{append:t(()=>[o(u,{onClick:e[1]||(e[1]=i=>n(C)(n(s)))},{default:t(()=>e[8]||(e[8]=[a(" 复制 ")])),_:1})]),_:1},8,["modelValue"])]),_:1})):M("",!0)])}}});typeof _=="function"&&_(D);export{D as default};

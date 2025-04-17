@@ -1,0 +1,9 @@
+
+/**
+ * 由 admin 提供技术支持
+ * Powered by admin
+ * 代码仓库
+ * Github https://github.com/Lmx1220/kpu-web
+ */
+    
+import{_ as k}from"./index.vue_vue_type_script_setup_true_lang-XFxYfcp-.js";import{d as B,c as _,r as N,l as f,b as $,o as p,f as g,h as U,j as r,G as C,w as o,i as a,O as w,V as d}from"./bootstrap-DTzpk8a9.js";const G=B({__name:"index",props:{modelValue:{type:Boolean,default:!1},mode:{default:"dialog"},id:{default:""},type:{}},emits:["update:modelValue","success"],setup(b,{emit:v}){const s=b,c=v,l=_({get(){return s.modelValue},set(t){c("update:modelValue",t)}}),u=N(),y=_(()=>{switch(s.type){case"add":return"新增";case"edit":return"编辑";case"view":return"查看";default:return"查看角色"}});function V(){var t;(t=u.value)==null||t.submit((e=!0)=>{e&&c("success"),i()})}function i(){l.value=!1}return(t,e)=>{const n=f("el-button"),x=f("el-dialog"),z=f("el-drawer");return p(),$("div",null,[s.mode==="dialog"?(p(),g(x,{key:0,modelValue:r(l),"onUpdate:modelValue":e[0]||(e[0]=m=>C(l)?l.value=m:null),title:r(y),width:"600px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:o(()=>[a(n,{size:"large",onClick:i},{default:o(()=>e[2]||(e[2]=[d(" 取 消 ")])),_:1}),a(n,{type:"primary",size:"large",onClick:V},{default:o(()=>e[3]||(e[3]=[d(" 确 定 ")])),_:1})]),default:o(()=>[a(k,w({ref_key:"form",ref:u},t.$props),null,16)]),_:1},8,["modelValue","title"])):s.mode==="drawer"?(p(),g(z,{key:1,modelValue:r(l),"onUpdate:modelValue":e[1]||(e[1]=m=>C(l)?l.value=m:null),title:r(y),size:"600px","close-on-click-modal":!1,"destroy-on-close":""},{footer:o(()=>[a(n,{size:"large",onClick:i},{default:o(()=>e[4]||(e[4]=[d(" 取 消 ")])),_:1}),a(n,{type:"primary",size:"large",onClick:V},{default:o(()=>e[5]||(e[5]=[d(" 确 定 ")])),_:1})]),default:o(()=>[a(k,w({ref_key:"form",ref:u},t.$props),null,16)]),_:1},8,["modelValue","title"])):U("",!0)])}}});export{G as _};
